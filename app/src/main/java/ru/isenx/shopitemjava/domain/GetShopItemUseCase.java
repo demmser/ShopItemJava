@@ -1,9 +1,9 @@
 package ru.isenx.shopitemjava.domain;
 
 public class GetShopItemUseCase {
-    private ShopItemRepository mRepository;
+    private ShopListRepository mRepository;
 
-    public GetShopItemUseCase(ShopItemRepository repository) {
+    public GetShopItemUseCase(ShopListRepository repository) {
         mRepository = repository;
     }
 

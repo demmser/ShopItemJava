@@ -2,7 +2,8 @@ package ru.isenx.shopitemjava.domain;
 
 public class ShopItem {
 
-    private int id;
+    public static final int UNDEFINED_ID = -1;
+    private int id = UNDEFINED_ID;
     private String name;
     private int count;
     private boolean enabled;

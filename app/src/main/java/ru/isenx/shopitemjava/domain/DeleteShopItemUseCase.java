@@ -2,9 +2,9 @@ package ru.isenx.shopitemjava.domain;
 
 public class DeleteShopItemUseCase {
 
-    private ShopItemRepository mRepository;
+    private ShopListRepository mRepository;
 
-    public DeleteShopItemUseCase(ShopItemRepository repository) {
+    public DeleteShopItemUseCase(ShopListRepository repository) {
         mRepository = repository;
     }
 

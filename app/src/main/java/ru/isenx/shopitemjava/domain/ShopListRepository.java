@@ -2,7 +2,7 @@ package ru.isenx.shopitemjava.domain;
 
 import java.util.List;
 
-public interface ShopItemRepository {
+public interface ShopListRepository {
 
     List<ShopItem> getShopList();
 

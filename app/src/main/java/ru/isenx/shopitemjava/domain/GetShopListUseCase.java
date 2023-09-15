@@ -4,9 +4,9 @@ import java.util.List;
 
 public class GetShopListUseCase {
 
-    private ShopItemRepository mRepository;
+    private ShopListRepository mRepository;
 
-    public GetShopListUseCase(ShopItemRepository repository) {
+    public GetShopListUseCase(ShopListRepository repository) {
         mRepository = repository;
     }
 
