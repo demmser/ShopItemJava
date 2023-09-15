@@ -1,8 +1,10 @@
-package ru.isenx.shopitemjava;
+package ru.isenx.shopitemjava.presentes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import ru.isenx.shopitemjava.R;
 
 public class MainActivity extends AppCompatActivity {
 
